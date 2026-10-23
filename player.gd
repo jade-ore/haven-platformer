@@ -1,15 +1,15 @@
 extends CharacterBody2D
 
 @export var speed = 500
-@export var gravity = 10
+@export var gravity = 1000
 @export var jump_strength = 500
 
 var direction
 var jump: Vector2
-var g: int
+var g: float
 
 
-func _process(_delta: float) -> void:
+func _process(delta: float) -> void:
 	direction = Vector2.ZERO
 	jump += Vector2(0, g)
 	
@@ -23,7 +23,7 @@ func _process(_delta: float) -> void:
 	if is_on_floor():
 		g = 0
 	else:
-		g = gravity
+		g = gravity * 100 * delta
 	
 	
 	velocity = direction * speed + jump

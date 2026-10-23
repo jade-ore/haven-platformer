@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://wid0c45m23b7"
-path="res://.godot/imported/haven jmpstart.png-5c134a19bfbba203f794f94702ff0bc1.ctex"
+uid="uid://cwqw7c3k0pqkg"
+path="res://.godot/imported/index.png-de14850a4c2320eaddca8799ea52db2b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://export/haven jmpstart.png"
-dest_files=["res://.godot/imported/haven jmpstart.png-5c134a19bfbba203f794f94702ff0bc1.ctex"]
+source_file="res://export/index.png"
+dest_files=["res://.godot/imported/index.png-de14850a4c2320eaddca8799ea52db2b.ctex"]
 
 [params]
 
