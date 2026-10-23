@@ -1,0 +1,46 @@
+[gd_scene format=3 uid="uid://px44rcugrh2t"]
+
+[ext_resource type="Script" uid="uid://os503dtp1vtg" path="res://button.gd" id="1_sug1e"]
+
+[node name="Control" type="Control" unique_id=401836284]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1359603049]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="." unique_id=808196105]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.4092882
+anchor_top = 0.48225307
+anchor_right = 0.59071183
+anchor_bottom = 0.5177469
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 36
+text = "you win daven platformer!!"
+metadata/_edit_use_anchors_ = true
+
+[node name="Button" type="Button" parent="." unique_id=1528972064]
+layout_mode = 0
+anchor_left = 0.43229166
+anchor_top = 0.6265432
+anchor_right = 0.5494792
+anchor_bottom = 0.7083333
+theme_override_font_sizes/font_size = 26
+text = "play again"
+script = ExtResource("1_sug1e")
+metadata/_edit_use_anchors_ = true
+
+[connection signal="pressed" from="Button" to="Button" method="_on_pressed"]
